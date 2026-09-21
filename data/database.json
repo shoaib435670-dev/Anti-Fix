@@ -1,0 +1,116 @@
+{
+  "users": [],
+  "subscriptions": [],
+  "features": [
+    {
+      "id": "image-to-pdf",
+      "name": "Image to PDF",
+      "description": "Convert JPG, PNG, WEBP images into clean, customized PDFs with orientation and margin settings.",
+      "icon": "Images",
+      "enabled": true,
+      "is_paid": false,
+      "weekly_price": 50,
+      "monthly_price": 150
+    },
+    {
+      "id": "edit-pdf",
+      "name": "Edit PDF",
+      "description": "Interactive PDF editing canvas with zoom, annotations, page management, and export.",
+      "icon": "FileEdit",
+      "enabled": true,
+      "is_paid": true,
+      "weekly_price": 100,
+      "monthly_price": 300
+    },
+    {
+      "id": "rename-pdf",
+      "name": "Rename PDF",
+      "description": "Quickly standardize, validate, and rename PDF files with automatic extension safety.",
+      "icon": "FileText",
+      "enabled": true,
+      "is_paid": false,
+      "weekly_price": 30,
+      "monthly_price": 90
+    },
+    {
+      "id": "lock-pdf",
+      "name": "Lock PDF",
+      "description": "Protect sensitive PDF files with military-grade user & owner password encryption.",
+      "icon": "Lock",
+      "enabled": true,
+      "is_paid": true,
+      "weekly_price": 70,
+      "monthly_price": 200
+    },
+    {
+      "id": "edit-pdf-text",
+      "name": "Edit PDF Text",
+      "description": "Detect, select, edit, and format native PDF text or run smart OCR detection on image pages.",
+      "icon": "Type",
+      "enabled": true,
+      "is_paid": true,
+      "weekly_price": 150,
+      "monthly_price": 400
+    },
+    {
+      "id": "draw-on-pdf",
+      "name": "Draw on PDF",
+      "description": "Freehand pen, highlighter, shapes, lines, arrows, opacity and stroke controls burned into PDF.",
+      "icon": "PenTool",
+      "enabled": true,
+      "is_paid": true,
+      "weekly_price": 80,
+      "monthly_price": 220
+    },
+    {
+      "id": "delete-pdf-pages",
+      "name": "Delete PDF Pages",
+      "description": "Interactive visual page grid. Select and delete single or multiple pages instantly.",
+      "icon": "Trash2",
+      "enabled": true,
+      "is_paid": false,
+      "weekly_price": 40,
+      "monthly_price": 120
+    }
+  ],
+  "payments": [],
+  "payment_methods": [
+    {
+      "id": "easypaisa",
+      "name": "EasyPaisa",
+      "enabled": true,
+      "account_number": "0345-1234567",
+      "account_holder_name": "Muzamil Ahmad",
+      "instructions": "Send money to our EasyPaisa account via App or USSD *786#. Take a screenshot of the transaction receipt and note the Transaction ID."
+    },
+    {
+      "id": "jazzcash",
+      "name": "JazzCash",
+      "enabled": true,
+      "account_number": "0300-7654321",
+      "account_holder_name": "Muzamil Ahmad",
+      "instructions": "Transfer payment via JazzCash App or *786#. Ensure you attach the payment screenshot and copy the 12-digit TID."
+    },
+    {
+      "id": "bank_transfer",
+      "name": "Bank Transfer / Raast",
+      "enabled": true,
+      "bank_name": "Meezan Bank Limited",
+      "account_number": "0101-0102030405",
+      "account_holder_name": "Muzamil Ahmad",
+      "iban": "PK36MEZN0001010102030405",
+      "instructions": "Transfer through Internet Banking or Raast Instant Pay. Upload the digital transfer receipt screenshot below."
+    }
+  ],
+  "files": [],
+  "notifications": [],
+  "audit_logs": [
+    {
+      "id": "log_init",
+      "action": "AntiFix Database Initialized",
+      "action_type": "admin_login",
+      "details": "System initialized with default feature pricing and payment configuration.",
+      "created_at": "2026-09-21T18:31:15.797Z"
+    }
+  ]
+}

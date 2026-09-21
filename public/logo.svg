@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="antiBlueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0540F2" />
+      <stop offset="65%" stop-color="#001880" />
+      <stop offset="100%" stop-color="#000d40" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#0540f2" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Red Jagged / Lightning Backdrop -->
+  <polygon 
+    points="70,640 95,290 355,250 360,310 590,240 595,295 990,185 840,300 580,420 340,560 170,610" 
+    fill="#ED1C24" 
+  />
+
+  <!-- Main "ANTI" Block Typography -->
+  <!-- Letter 'A' with paint drips -->
+  <g fill="url(#antiBlueGrad)">
+    <!-- 'A' body -->
+    <path d="M 90,580 L 115,298 L 270,298 L 320,545 L 235,545 L 210,480 L 175,480 L 165,580 Z M 180,410 L 200,410 L 190,360 Z" />
+    <!-- Drips from A -->
+    <path d="M 98,580 L 105,580 L 105,615 Q 105,622 101,622 Q 98,622 98,615 Z" fill="#001880" />
+    <path d="M 126,580 L 134,580 L 134,610 Q 134,617 130,617 Q 126,617 126,610 Z" fill="#001880" />
+    <path d="M 163,580 L 171,580 L 171,595 Q 171,602 167,602 Q 163,602 163,595 Z" fill="#001880" />
+
+    <!-- 'N' -->
+    <path d="M 310,298 L 405,298 L 475,430 L 475,298 L 555,298 L 555,530 L 460,530 L 390,395 L 390,530 L 310,530 Z" />
+
+    <!-- 'T' -->
+    <path d="M 570,292 L 830,292 L 830,365 L 745,365 L 745,530 L 655,530 L 655,365 L 570,365 Z" />
+
+    <!-- 'i' with bar dot -->
+    <!-- Top bar for dot of i -->
+    <rect x="835" y="292" width="105" height="30" rx="3" />
+    <!-- Lower stem of i -->
+    <rect x="835" y="345" width="105" height="185" rx="3" />
+  </g>
+
+  <!-- Distressed "FiX" Typography -->
+  <g transform="translate(650, 620)">
+    <!-- F -->
+    <text x="0" y="0" font-family="'Times New Roman', serif" font-weight="900" font-size="105" fill="#880000" stroke="#000000" stroke-width="3" letter-spacing="-2">F</text>
+    <!-- i -->
+    <text x="70" y="0" font-family="'Times New Roman', serif" font-weight="900" font-size="105" fill="#880000" stroke="#000000" stroke-width="3" letter-spacing="-2">i</text>
+    <circle cx="92" cy="-85" r="7" fill="#880000" stroke="#000000" stroke-width="2"/>
+    <!-- X with distressed slashes -->
+    <text x="135" y="0" font-family="'Times New Roman', serif" font-weight="900" font-size="105" fill="#880000" stroke="#000000" stroke-width="3" letter-spacing="-2">X</text>
+    <!-- underline scratch effect -->
+    <line x1="2" y1="8" x2="270" y2="8" stroke="#000000" stroke-width="3" />
+  </g>
+</svg>
